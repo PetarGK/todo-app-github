@@ -8,6 +8,7 @@ backend:
     build:
       commands:
         - cd backend
+        - npm install
         - cdk deploy --require-approval=never
 frontend:
   phases:
