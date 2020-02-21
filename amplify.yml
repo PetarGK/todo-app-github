@@ -10,6 +10,7 @@ backend:
         - cd backend
         - npm install
         - cdk deploy --require-approval=never
+        - cd ..
 frontend:
   phases:
     preBuild:
