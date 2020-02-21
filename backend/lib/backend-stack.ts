@@ -10,5 +10,9 @@ export class BackendStack extends cdk.Stack {
     const topic = new sns.Topic(this, 'Topic', {
       displayName: 'Customer subscription topic'
     });    
+
+    const topic2 = new sns.Topic(this, 'Topic2', {
+      displayName: 'Customer subscription topic 2'
+    });      
   }
 }
